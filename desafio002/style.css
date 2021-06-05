@@ -1,0 +1,21 @@
+body {
+    background: #e3d8f1;
+    text-align: center;
+}
+
+.titulo {
+    color: #663f46 ;
+}
+
+.t2 {
+    color: #8a1c7c;
+}
+
+.b1 {
+    background: #a7669e; 
+    color: #fffcfb;
+    height: 60px;
+    width: 90px;
+    font: bold 18px arial, sans-serif;
+    text-shadow: none;
+}

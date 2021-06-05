@@ -1,0 +1,32 @@
+body{
+    background: #f2f3ae;
+    text-align: center;
+    
+}
+.titulo {
+    color: #ec4e20;
+    font:normal 40pt Courier;
+    margin-top: 100px;
+}
+
+#resposta{
+    margin-top: 20px;
+    
+    height: 100px;
+    width: 340px;
+    background: #f28969;
+    font: normal 15pt Arial;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-left: calc(50% - 180px);
+}
+
+.bt {
+    background: #771822; 
+    color: #fffcfb;
+    height: 60px;
+    width: 250px;
+    font: 20px arial, sans-serif;
+    text-shadow: none;
+}
