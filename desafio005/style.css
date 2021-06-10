@@ -1,0 +1,36 @@
+body{
+    background-color: #c9699c;
+    text-align: center;
+}
+
+.titulo{
+text-align: center;
+font: bold 40pt Andale Mono;
+margin-top: 120px;
+color: #d7d5d5;
+
+}
+
+.bt{
+    background: #d4f3ec;
+    color: #2f195f;
+    height: 60px;
+    width: 250px;
+    font: 20px arial, sans-serif;
+    text-shadow: none;
+    margin-top: 40px;
+    border: 9px solid rgb(150, 61, 150)
+   
+}
+
+#resposta{
+    margin-top: 70px;
+    background: #d4f3ec;
+    height: 200px;
+    width: 350px;
+    display: inline-block;
+    border: 9px solid rgb(150, 61, 150);
+    font: 20px arial;
+    
+
+}

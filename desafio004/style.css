@@ -1,0 +1,17 @@
+body{
+    background-color: #547aa5;
+    text-align: center;
+}
+.titulo {
+    color: #f2f3d9 ;
+    font:normal 40pt Courier;
+    margin-top: 100px;
+}
+.bt{
+    background: #d4f3ec;
+    color: #547aa5;
+    height: 60px;
+    width: 250px;
+    font: 20px arial, sans-serif;
+    text-shadow: none;
+}

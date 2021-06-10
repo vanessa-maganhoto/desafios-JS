@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de Desconto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <head>
+        <h1 class="titulo">Calcular desconto</h1>
+    </head>
+    <div id="questao">
+        <label for="prod">Nome do produto</label>
+        <input type="text" name="prod" id="txtp"> <br>
+        <label for="valor">Qual o valor do produto?</label>
+        <input type="number" name="valor" id="vprod"> <br>
+        <label for="desconto">Qual a porcentagem de desconto?</label>
+        <input type="number" name="desc" id="vdesc"> 
+        <input type="button" value="Calcular" onclick="desconto()">
+        
+    </div>
+   
+    <div id="res">
+        Preencha os campos acima para prosseguir
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

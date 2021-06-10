@@ -1,0 +1,32 @@
+body{
+    background-color: #7e78de;
+    text-align: center;
+}
+
+.titulo {
+font: normal 40pt Bookman;
+margin-top: 120px;
+color: #d7d5d5;
+}
+
+.bt {
+    background: #d4f3ec;
+    color: #2f195f;
+    height: 60px;
+    width: 250px;
+    font: 20px arial, sans-serif;
+    text-shadow: none;
+    margin-top: 40px;
+    border: 9px solid #52d1dc
+}
+
+#resposta{
+    margin-top: 70px;
+    background: #d4f3ec;
+    height: 100px;
+    width: 400px;
+    display: inline-block;
+    border: 9px solid #52d1dc;
+    font: 20px arial;
+    
+}
