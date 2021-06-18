@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fórmula de Bhaskara</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <head>
+        <h1 class="titulo">Resolvendo Bhaskara</h1>
+    </head>
+
+    <div class="conteudo" id="questao">
+        <p>Considere a equação abaixo para calcular o valor de &Delta;</p>
+        <p><img src="formula.png" alt="formula bhaskara"></p>
+        <p>Considerando uma equação no formato <i> <strong>a</strong>x&sup2; + <strong>b</strong>x + <strong>c </strong>= 0</i>, preencha os valores abaixo para calcular o valor de &Delta; </p>
+        <p>&Delta; = <i>b &sup2; - 4ac</i> </p>
+        <label class="val" for="prod">Qual é o valor de a</label>
+        <input class="btp" type="text" name="prod" id="va"> <br>
+        <label class="val" for="valor">Qual o valor de b?</label> 
+        <input class="btp" type="number" name="valor" id="vb"> <br>
+        <label class="val" for="desconto">Qual o valor de c?</label>
+        <input class="btp" type="number" name="desc" id="vc"> 
+        <input class="bt" type="button" value="Calcular" onclick="calcular()">
+        
+    </div>
+    <h1 class="titulo">Resultado</h1>
+    <div class="conteudo" id="res">
+        
+        
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
