@@ -1,0 +1,64 @@
+@charset 'UTF-8';
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+
+body{
+    background-color: #f7a9a8;
+    font: normal 20px Arial;
+}
+
+.titulo {
+    font-family: 'Caveat', cursive;
+    font-size: 100px;
+    text-align: center;
+}
+
+.pg {
+    font-family:fantasy;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+#questao{
+    font-family:fantasy;
+    font-size: 1em;
+    text-align: center;
+    background-color: #fcdada;
+    width: 300px;
+    height: 250px;
+    border-radius: 8px;
+    margin-top: 50px;
+    margin-left:800px;
+    
+
+}
+
+#res {
+    font-family:fantasy;
+    font-size: 2em;
+    text-align: center;
+    background-color: #fcdada;
+    width: 300px;
+    height: 150px;
+    border-radius: 8px;
+    margin-top: 60px;
+    margin-left:800px;
+    
+}
+
+.bt{
+    margin-top: 30px;
+    font-family:fantasy;
+    font-size: 0.9em;
+    width: 100px;
+    height: 40px;
+    background-color: #e5c3d1;
+    border-radius: 5px;
+    border: 3px solid #613f75;
+}
+.campo {
+    margin-top: 30px;
+    width: 100px;
+    height: 28px;
+    font-family:fantasy;
+    font-size: 1em;
+}

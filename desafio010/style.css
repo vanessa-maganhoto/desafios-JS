@@ -1,22 +1,30 @@
+@charset 'UTF-8';
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
 body {
-    background: rgb(107, 107, 252);
+    background: #A26AF1;
     font: normal 20 pt Arial;
 
 }
 
 .titulo {
-    color: white;
+    color:white;
     text-align: center;
+    font-family: 'Source Code Pro', Arial, Helvetica, sans-serif;
+    font-size: 3em;
 }
 .bt{
-    background: #d4f3ec;
+    background:#ffd6e8;
     color:#2c2627;
     height: 60px;
-    width: 190px;
+    width: 150px;
     font: 20px arial, sans-serif;
     text-shadow: none;
-    margin-top: 30px;
-    border: 5px solid #52d1dc;
+    margin-top: 40px;
+    margin-left: 95px;
+    border: 5px solid #ff006e;
+    border-radius: 10px;
    
     
 }
@@ -24,29 +32,36 @@ body {
 .val{
     font: 18px arial, sans-serif;
     color: #2c2627;
+    margin-left: 50px;
     
 }
 
 .btp{
-    background: #d4f3ec;
+    background: #ffd6e8;
     color: #2f195f;
     height: 15px;
     width: 80px;
     font: 15px arial, sans-serif;
     text-shadow: none;
     margin-top: 20px;
-    border: 2px solid #52d1dc
+    border: 2px solid #ff006e;
 }
 
 .conteudo {
     background: white;
+    font: 18px arial, sans-serif;
     border-radius: 10px;
     padding: 15px;
     height: auto;
-    width: 500px;
+    width: 350px;
     min-height: 100px;
     margin: auto;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
+}
+
+.center {
+    text-align: center;
+    font-size: 18px;
 }
 /* #questao {
     background: white;
